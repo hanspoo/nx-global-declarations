@@ -13,15 +13,23 @@ mkdir  types
 touch types/globals.d.ts
 ```
 
+Clone the repo somewhere and call directly the shell script, for example:
+
+```
+cd /tmp
+git clone https://github.com/hanspoo/nx-global-declarations
+```
 
 Run the shell script:
 
 ```
-add-nx-global.sh
+cd my-workspace
+/tmp/nx-global-declarations/add-nx-global.sh 
 ```
 
 Will add and include entry in every tsconfig file with an entry called ../../types. 
 This version just work with a two level hierarchy.
+
 
 
 Recomendation: Commit before execute.
