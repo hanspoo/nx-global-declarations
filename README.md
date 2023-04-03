@@ -17,7 +17,7 @@ touch types/globals.d.ts
 Run the shell script:
 
 ```
-fix.sh
+add-nx-global.sh
 ```
 
 Will add and include entry in every tsconfig file with an entry called ../../types. 
