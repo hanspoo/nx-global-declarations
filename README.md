@@ -21,7 +21,8 @@ fix.sh
 ```
 
 Will add and include entry in every tsconfig file with an entry called ../../types. 
-Actually works with just a two level hierarchy.
+This version just work with a two level hierarchy.
+
 
 Recomendation: Commit before execute.
 
